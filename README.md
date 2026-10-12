@@ -53,16 +53,16 @@ npm run dev
 ## 📸 Capturas de Pantalla
 
 ### Vista Principal
-![Vista Principal](./ss/1.png)
+![Vista Principal](./ss/2.png)
 
 ### Búsqueda de Productos
-![Búsqueda de Productos](./ss/2.png)
+![Búsqueda de Productos](./ss/1.png)
 
 ### Tarjeta de Producto
-![Tarjeta de Producto](./ss/3.png)
+![Tarjeta de Producto](./ss/4.png)
 
 ### Estado de Carga (Loader)
-![Componente de Carga](./ss/4.png)
+![Componente de Carga](./ss/3.png)
 
 ### Mensaje de Error (ErrorMessage)
-![Mensaje de Error](./ss/5.png)
+![Mensaje de Error](./ss/1.png)
