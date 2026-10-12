@@ -33,3 +33,20 @@ Permite visualizar productos de forma dinámica, filtrar por categoría, buscar,
 ```bash
 git clone https://github.com/JavierVargasGH/react-ecommerce-dummyjson.git
 cd react-ecommerce-dummyjson
+
+## 📸 Capturas de Pantalla
+
+### Vista Principal
+![Vista Principal](./ss/1.png)
+
+### Búsqueda de Productos
+![Búsqueda de Productos](./ss/2.png)
+
+### Tarjeta de Producto
+![Tarjeta de Producto](./ss/3.png)
+
+### Estado de Carga (Loader)
+![Componente de Carga](./ss/4.png)
+
+### Mensaje de Error (ErrorMessage)
+![Mensaje de Error](./ss/5.png)

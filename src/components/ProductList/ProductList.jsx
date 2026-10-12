@@ -1,24 +1,11 @@
 import ProductCard from '../ProductCard/ProductCard';
+import Loader from '../Loader/Loader';
+import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import './ProductList.css';
 
 const ProductList = ({ products, loading, error }) => {
-  if (loading) {
-    return (
-      <div className="loading-state">
-        <div className="spinner"></div>
-        <p>Cargando productos...</p>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="error-state">
-        <p>❌ {error}</p>
-      </div>
-    );
-  }
-
+  if (loading) return <Loader />;
+  if (error) return <ErrorMessage message={error} />;
   if (!products || products.length === 0) {
     return (
       <div className="empty-state">
