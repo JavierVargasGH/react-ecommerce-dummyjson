@@ -1,16 +1,35 @@
-# React + Vite
+# ShopDummy - E-commerce con React + DummyJSON API
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicación de e-commerce construida con **React** que consume la API pública de [DummyJSON](https://dummyjson.com/docs/products).  
+Permite visualizar productos de forma dinámica, filtrar por categoría, buscar, ver el detalle de cada producto y gestionar un carrito de compras.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Características
 
-## React Compiler
+- Listado dinámico de productos desde la API
+- Búsqueda de productos en tiempo real
+- Filtro por categorías
+- Página de detalle de producto con galería de imágenes y reseñas
+- Carrito de compras con persistencia en `localStorage`
+- Diseño responsive y moderno
+- Estructura de carpetas organizada (un componente por carpeta)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **React 18** (con Vite)
+- **React Router DOM** (navegación)
+- **Context API** (manejo del carrito)
+- **Fetch API** (consumo de DummyJSON)
+- **CSS puro** (estilos personalizados y responsive)
+
+---
+
+## 📦 Instalación y ejecución
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/JavierVargasGH/react-ecommerce-dummyjson.git
+cd react-ecommerce-dummyjson
